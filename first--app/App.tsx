@@ -5,10 +5,10 @@ import { StyleSheet, Text, View, TextInput, Button } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Welcome To My App!</Text>
-      <Text>Enter Your Name</Text>
+      <Text>Welcome to my app!</Text>
+      <Text>Enter your name</Text>
       <TextInput placeholder="Jane"/>
-      <Text>Enter Your Surname</Text>
+      <Text>Enter your surname</Text>
       <TextInput placeholder="Doe"/>
       <Button title="Add User"/>
       <StatusBar style="auto" />
