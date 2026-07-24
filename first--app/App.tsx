@@ -6,11 +6,11 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text>Welcome to my app!</Text>
-      <Text>Enter your name</Text>
+      <Text>Enter your name:</Text>
       <TextInput placeholder="Jane"/>
-      <Text>Enter your surname</Text>
+      <Text>Enter your surname:</Text>
       <TextInput placeholder="Doe"/>
-      <Button title="Add User"/>
+      <Button title="ADD USER"/>
       <StatusBar style="auto" />
     </View>
   );
